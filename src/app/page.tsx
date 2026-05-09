@@ -65,15 +65,15 @@ export default function LandingPage() {
       description="We craft premium social media strategies for brands that demand performance, aesthetic perfection, and rapid growth."
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/people-hangout-together-coffee-shop_53876-163250.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/people-hangout-together-coffee-shop_53876-163250.jpg?_wi=1",
           imageAlt: "Agency Digital Workspace",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-talking-phone_23-2148815638.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-talking-phone_23-2148815638.jpg?_wi=1",
           imageAlt: "Modern Luxury Office",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-triangle_23-2151293873.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-triangle_23-2151293873.jpg?_wi=1",
           imageAlt: "Abstract Digital Design",
         },
         {
@@ -143,7 +143,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/man-switching-bulbs-using-voice-command-tablet_482257-8730.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/people-hangout-together-coffee-shop_53876-163250.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/people-hangout-together-coffee-shop_53876-163250.jpg?_wi=2",
           imageAlt: "app growth tracker interface",
         },
         {
@@ -155,7 +155,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/crop-men-discussing-graph-tablet_23-2147785037.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-talking-phone_23-2148815638.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-talking-phone_23-2148815638.jpg?_wi=2",
           imageAlt: "app growth tracker interface",
         },
         {
@@ -167,7 +167,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/still-life-graphic-design-office_23-2151345406.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-triangle_23-2151293873.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-triangle_23-2151293873.jpg?_wi=2",
           imageAlt: "app growth tracker interface",
         },
       ]}
