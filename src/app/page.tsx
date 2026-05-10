@@ -167,6 +167,7 @@ export default function LandingPage() {
           { name: "name", type: "text", placeholder: "Full Name" },
           { name: "email", type: "email", placeholder: "Email Address" }
         ]}
+        useInvertedBackground={false}
         mediaPosition="right"
         imageSrc="http://img.b2bpic.net/free-photo/medium-shot-woman-working-office_23-2149363595.jpg"
       />
