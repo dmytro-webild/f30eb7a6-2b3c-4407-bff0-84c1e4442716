@@ -165,7 +165,8 @@ export default function LandingPage() {
         description="Reach out to us to start building your future today."
         inputs={[
           { name: "name", type: "text", placeholder: "Full Name" },
-          { name: "email", type: "email", placeholder: "Email Address" }
+          { name: "email", type: "email", placeholder: "Email Address" },
+          { name: "phone", type: "tel", placeholder: "Phone Number" }
         ]}
         useInvertedBackground={false}
         mediaPosition="right"
