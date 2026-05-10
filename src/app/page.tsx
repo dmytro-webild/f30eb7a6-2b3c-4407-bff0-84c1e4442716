@@ -162,7 +162,7 @@ export default function LandingPage() {
   <div id="contact-form" data-section="contact-form">
       <ContactSplitForm
         title="Let's Connect"
-        description="Reach out to us to start building your future today."
+        description="Reach out to us to start building your future today.  asifsohailsb56@gmail.com                                  "
         inputs={[
           { name: "name", type: "text", placeholder: "Full Name" },
           { name: "email", type: "email", placeholder: "Email Address" },
