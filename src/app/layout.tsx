@@ -7,6 +7,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { DM_Sans } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 
 
 
@@ -23,12 +24,9 @@ export const metadata: Metadata = {
   },
 };
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin"],
-});
-const inter = Inter({
-  variable: "--font-inter",
+
+const nunitoSans = Nunito_Sans({
+  variable: "--font-nunito-sans",
   subsets: ["latin"],
 });
 
@@ -40,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
+        <body className={`${nunitoSans.variable} antialiased`}>
           <Tag />
           {children}
           <script
