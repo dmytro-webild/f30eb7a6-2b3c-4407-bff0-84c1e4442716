@@ -3,6 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterBase from '@/components/sections/footer/FooterBase';
@@ -156,6 +157,19 @@ export default function LandingPage() {
       text="Ready to scale your influence?"
       buttons={[{ text: "Start Partnership", href: "#" }]}
     />
+  </div>
+
+  <div id="contact-form" data-section="contact-form">
+      <ContactSplitForm
+        title="Let's Connect"
+        description="Reach out to us to start building your future today."
+        inputs={[
+          { name: "name", type: "text", placeholder: "Full Name" },
+          { name: "email", type: "email", placeholder: "Email Address" }
+        ]}
+        mediaPosition="right"
+        imageSrc="http://img.b2bpic.net/free-photo/medium-shot-woman-working-office_23-2149363595.jpg"
+      />
   </div>
 
   <div id="footer" data-section="footer">
